@@ -16,6 +16,19 @@
 
 
 
+
+
+
+
+
+
+
+
+##################################
+
+
+
+
 # wap to print numbers from -10 to -1
 # s = -10
 # end = -1
@@ -38,10 +51,11 @@
 # else:
 #     print("prime")
 
-#  prime numbers -- range of numbers
-
+#  10 prime numbers -- range of numbers
+#
 # num = 1
-# while num <= 10:
+# count = 0
+# while num > 0:
 #     if num > 1:
 #         i = 2
 #         while i <= num//2: # i < num
@@ -49,7 +63,9 @@
 #                 break
 #             i += 1
 #         else:
-#             print(num,end=" ")
+#             count += 1
+#             if count <= 10:
+#                 print(num,end=" ")
 #     num += 1
 
 # Fibonacci numbers upto 10
@@ -134,6 +150,123 @@
 # print(d.get("a"))
 # for key in d:
 #     print(key,d[key],end=" ")
+
+
+
+
+
+############################Program to count the number of digits and alphabets in the string
+
+s = "hai 1234 python23"
+count_a = 0
+count_d = 0
+
+# for i in s:
+#     if i.isalpha():
+#         count_a += 1
+#     elif i.isdigit():
+#         count_d += 1
+# print(count_a,count_d)
+
+# for i in s:
+#     if ord("a")<= ord(i)<= ord("z") or ord("A")<= ord(i)<= ord("Z"):
+#         count_a += 1
+#     elif "0"<= i <= "9":
+#         count_d += 1
+# print(count_a,count_d)
+
+####################################
+
+# sentence = "hai how are you"
+# count = 0
+# l = sentence.split()
+# print(l)
+#
+# for word in l:
+#     count += 1
+# print(count)
+
+
+############ print all repeated characters
+# s = "hello world"
+# for char in set(s):
+#     if s.count(char) > 1:
+#         print(char,end=" ")
+
+
+
+
+########### to remove the duplicate/repeated characters in the given string
+
+# s = "hello world"
+# res = ""
+
+# for ch in s:
+#     if s.count(ch) == 1:
+#         res += ch
+# print(res) # he wrd
+
+# for ch in s:
+#     if ch not in res:
+#         res += ch
+# print(res) #helo wrd
+# print(set(s)) # {'h','e','l','o',' ','w','r','d'}
+
+
+######## print duplicate characters without using inbuilt methods
+# s = "hello world"
+# non_duplicates = ""
+# duplicates = ""
+#
+# for ch in s:
+#     if ch not in non_duplicates:
+#         non_duplicates += ch
+#     else:
+#         duplicates += ch
+# print(non_duplicates)
+# print(set(duplicates))
+# print("".join(set(duplicates)))
+
+
+
+# to print all the indices of the given substring
+
+
+# s = "hello world"
+# ch = "o"
+#
+# for i in range(len(s)):
+#     if s[i] == ch:
+#         print(i,end=" ")
+
+### first occurence of the index of the substring
+
+# s = "hello world"
+# ch = "o"
+# print(s.index(ch))# inbuilt function
+#
+# for i in range(len(s)):   # without using inbuilt function
+#     if s[i] == ch:
+#         print(i)
+#         break
+
+### first occurence of the index of the substring
+#
+#
+# s = "hello world"
+# ch = "o"
+# print(s.index(ch))# inbuilt function
+#
+# for i in range(len(s)):   # without using inbuilt function
+#     if s[i] == ch:
+#         print(i)
+#         break
+
+
+
+##############
+
+
 
 
 
