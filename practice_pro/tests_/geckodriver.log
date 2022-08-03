@@ -1,0 +1,17 @@
+1656530155864	geckodriver	INFO	Listening on 127.0.0.1:60412
+1656530158947	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileuxyU5w"
+1656530160509	Marionette	INFO	Marionette enabled
+1656530160526	Marionette	INFO	Listening on port 60427
+Read port: 60427
+Read port: 60427
+Read port: 60427
+1656530163224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileuxyU5w\\search.json.mozlz4", (void 0)))
+1656530179352	Marionette	INFO	Stopped listening on port 60427
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.actitime.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.actitime.com"
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 761: Error: Connection closed before committing the transaction.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.actitime.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.actitime.com"
+1657135504999	geckodriver	INFO	Listening on 127.0.0.1:56185
+1657135508097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileGCyMzg"
